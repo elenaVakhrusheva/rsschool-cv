@@ -1,0 +1,47 @@
+* {font-family: 'Roboto', sans-serif;}
+
+body {
+  background: #484545;
+  margin: 0
+}
+
+h1 {
+  font-size: 30px;
+  color: #423c3c;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+main {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px 25px;
+}
+
+header {
+  display: flex;
+
+}
+
+.photo img{
+  max-width: 200px;
+  height: auto;
+  float: left;
+  margin-right: 50px;
+  border-radius: 50%;
+  border: 5px solid #ffd933;
+}
+
+.weight-text {
+  font-weight: bold;
+}
+.list-contacts {
+  padding-left: 0px;
+}
+.list-contacts li {
+  list-style-type: none;
+}
