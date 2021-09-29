@@ -45,3 +45,21 @@ header {
 .list-contacts li {
   list-style-type: none;
 }
+
+footer {
+  border-top: 3px solid #ffd933;
+  margin-top: 60px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.footer .logo img {
+  width: 100px;
+  height: auto;
+  padding: 20px 0 15px;
+}
